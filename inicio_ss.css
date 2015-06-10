@@ -1,0 +1,296 @@
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	margin: 0;
+	text-align: center;
+}
+
+h1{
+	color: #FFF;
+	background-color: #00578E;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 50px; 
+	margin: 0 auto 10px;
+	padding: 50px 0;
+	width: 1200px;
+}
+
+footer{
+	background-color: #262626;
+	color: #919496;;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	height: 250px
+}
+
+footer a {
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+ol{
+	line-height: 38px;
+	padding: 0 0 0 55px;
+	text-align: left;
+}
+
+.blank{
+	margin: 0 auto;
+	height: 95px;
+	width: 1200px; 
+}
+
+.footer_li {
+
+	list-style: none;
+	display: inline-block;
+	margin: 0px 25px;
+
+}
+
+.herramientas ul{
+	text-align: left;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+.superior {
+	width: 100%; 
+	position: fixed;
+}
+
+.principal {background-color: #00578e; 
+	height: 75px; 
+	margin: 0px auto; 
+	width: 1200px;
+}
+
+.logo {
+	margin: 5px 0 0 30px; 
+	float: left;
+}
+
+.menu {
+	display: inline-block; 
+	float: right; 
+	margin: 28px 0 0 0;
+}
+
+.aviso {
+	background-color: #EBEBEB;
+	font-size: 25px;
+	width: 1160px; 
+	margin: 20px auto;
+	padding: 20px;
+	text-align: left;
+}
+
+.controles{
+	display: inline-block;
+	height: 100%;
+	width: 1200px;
+	margin: 10px auto 20px;
+}
+
+.acceso{
+	background-color: #EBEBEB;
+	float: left;
+	height: 300px;
+	width: 23%;
+	margin: 0 18px 0 0;
+	padding: 5px;
+	color: #00578E;
+}
+
+.acceso:hover{
+	background-color: #9C9C9C;
+	transition: all 0.5s ease 0s;
+}
+
+.secundario{
+	display: inline-block;
+	height: 100%;
+	width: 1200px;
+	margin: 10px auto 20px;
+}
+
+.baja{
+	background-color: #EBEBEB;
+	float: left;
+	height: 300px;
+	margin: 0 18px 0 0;
+	padding: 5px;
+}
+
+.instrucciones{
+	width: 61.7%;
+}
+
+.herramientas{
+	width: 35%;
+	margin: 0;
+}
+
+.herramientas a{
+	color: #00578E;
+	text-decoration: none;
+}
+
+.boton{
+	margin: 55px auto;
+}
+
+.final{
+	margin: 0;
+}
+
+.icon {
+	font-family: 'IcoMoon-Free';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.username {
+
+	display: inline;
+	margin-left: 5px;
+
+}
+
+.user {
+
+	display: inline;
+	position: absolute;
+	margin: -2px 0px 0px -25px;
+	 
+}
+
+.user:before {
+	content: "\e9f9";
+	font-size: 25px;
+}
+
+.info:before {
+	content: "\ea0c";
+	font-size: 30px;
+}
+
+.actividades:before {
+	content: "\e953";
+	font-size: 90px;
+}
+
+.empleados:before {
+	content: "\e976";
+	font-size: 90px;
+}
+
+.nomina:before {
+	content: "\e93b";
+	font-size: 90px;
+}
+
+.record:before {
+	content: "\e952";
+	font-size: 90px;
+}
+
+.close {
+
+	display: inline;
+	margin-left: 5px;
+
+}
+
+.cerrar:before {
+	content: "\e98d";
+	font-size: 20px;
+}
+
+.reportar:before {
+	content: "\ea08";
+	font-size: 20px;
+}
+
+.ayuda:before {
+	content: "\e941";
+	font-size: 20px;
+}
+
+.logout {
+
+	display: inline;
+	position: absolute;
+	margin: -2px 0px 0px -25px;
+
+}
+
+.logout:before {
+	content: "\ea13";
+	font-size: 25px;
+}
+
+.cerrar{
+	width: 0px;
+	margin: 0 10px 0 0;
+	display: inline;
+}
+
+.reportar{
+	width: 0px;
+	margin: 0px 10px 0px 0px;
+	display: inline;
+}
+
+.ayuda{
+	width: 0px;
+	margin: 0px 10px 0px 0px;
+	display: inline;
+}
+
+#listado {
+	list-style-type: none; 
+	margin: 0;
+}
+
+#listado li {
+	float: left; 
+	font-size: 16px; 
+	font-weight: bold;   
+	transition: color 0.2s ease 0s;
+}
+
+#listado li a {
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+	padding: 30px 30px 21px; 
+}
+
+#listado li a:hover {
+	color: #02BBF1;
+}

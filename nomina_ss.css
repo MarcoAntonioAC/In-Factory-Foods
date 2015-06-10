@@ -1,0 +1,262 @@
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	margin: 0;
+	text-align: center;
+}
+
+button {
+	color: #FFF;
+	background-color: dodgerblue;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px 25px;
+}
+
+h1{
+	color: #FFF;
+	background-color: #00578E;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 50px; 
+	margin: 0 auto 10px;
+	padding: 50px 0;
+	width: 1200px;
+}
+
+footer{
+	background-color: #262626;
+	color: #919496;;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	height: 250px
+}
+
+footer a {
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.aviso {
+	background-color: #EBEBEB;
+	font-size: 25px;
+	width: 1160px; 
+	margin: 20px auto;
+	padding: 20px;
+	text-align: left;
+}
+
+.blank{
+	margin: 0 auto;
+	height: 95px;
+	width: 1200px; 
+}
+
+.campo_error{
+	background-color: #E7ACAC;
+	color: #000;
+}
+
+.close {
+
+	display: inline;
+	margin-left: 5px;
+
+}
+
+.footer_li {
+
+	list-style: none;
+	display: inline-block;
+	margin: 0px 25px;
+
+}
+
+.form p{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.icon {
+	font-family: 'IcoMoon-Free';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+	margin: 5px 0 0 30px; 
+	float: left;
+}
+
+.menu {
+	display: inline-block; 
+	float: right; 
+	margin: 28px 0 0 0;
+}
+
+.principal {background-color: #00578e; 
+	height: 75px; 
+	margin: 0px auto; 
+	width: 1200px;
+}
+
+.regresar {
+	background-color: #00578e;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	width: 300px; 
+	margin: 20px auto;
+	padding: 5px;
+	text-align: center;
+}
+
+.regresar:hover{
+	background-color: dodgerblue;
+}
+
+.salida_on{
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #D8D8D8;
+	padding: 10px;
+}
+
+.salida p{
+	font-weight: normal;
+}
+
+.superior {
+	width: 100%; 
+	position: fixed;
+}
+
+.textbox {
+    width: 250px;
+    height: 30px;
+}
+
+.textbox1 {
+    width: 300px;
+    height: 30px;
+}
+
+.textbox2 {
+    width: 500px;
+    height: 30px;
+}
+
+.textbox3 {
+    width: 150px;
+    height: 30px;
+}
+
+.username {
+
+	display: inline;
+	margin-left: 5px;
+
+}
+
+.user {
+
+	display: inline;
+	position: absolute;
+	margin: -2px 0px 0px -25px;
+	 
+}
+
+.user:before {
+	content: "\e9f9";
+	font-size: 25px;
+}
+
+.logout {
+
+	display: inline;
+	position: absolute;
+	margin: -2px 0px 0px -25px;
+
+}
+
+.logout:before {
+	content: "\ea13";
+	font-size: 25px;
+}
+
+#avisoPriv{
+	padding: 0 0 15px 0;
+	text-align: center;
+}
+
+#confirm{
+	color: white;
+	font-size: 18px;
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#listado {
+	list-style-type: none; 
+	margin: 0;
+}
+
+#listado li {
+	float: left; 
+	font-size: 16px; 
+	font-weight: bold;   
+	transition: color 0.2s ease 0s;
+}
+
+#listado li a {
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+	padding: 30px 30px 21px; 
+}
+
+#listado li a:hover {
+	color: #02BBF1;
+}
+
+#notificacion{
+	border: dashed 5px #00578E;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+#notifier {
+    color: black;
+	font-size: 18px;
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#parametros{
+	width: 800px;
+}

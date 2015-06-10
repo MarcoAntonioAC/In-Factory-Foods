@@ -1,0 +1,28 @@
+/* TEAM */
+                       
+	Web Designer & Programer: Marco Antonio AC 
+	Financier: Leonardo Daniel de la CC
+	Manager: Juan Ramon IH
+	Writer: Diana Laura BF
+	Supervisor: Jesus Roberto ZP                 
+	Site: factoryfoods.info                         
+	Twitter: @                      
+	Location: Ciudad de México                       
+                 
+                        [...]
+													
+/* THANKS */
+							
+	W3C: http://www.w3.org/
+	jQuery: http://jquery.com/
+	Hostinger: http://www.hostinger.mx/
+						              
+                        [...]
+                                        
+/* SITE */
+                          
+	Last update: 2015/06/09                       
+	Languaje: Español     
+	Standards: HTML5, CSS3, PHP 5, javaScrip, MySQL.                          
+	Components: Jquery, IconMoon.                          
+	Software: Sublime Text 2, Firefox, Firebug

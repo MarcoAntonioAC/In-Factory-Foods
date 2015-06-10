@@ -1,0 +1,199 @@
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	color: #FFF; 
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px; 
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+}
+
+h1 {
+	font-size: 60px; margin: 0; 
+	text-shadow: 2px 3px 4px grey; 
+	padding: 150px 0 0 0;
+}
+
+h2 {
+	color: #2F2F2D;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 50px; 
+	margin: 10px auto; 
+}
+
+body {
+	background-color: #FFF; 
+	text-align: center; 
+	margin: 0; 
+}
+
+footer{
+	background-color: #262626;
+	color: #919496;;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	height: 250px
+}
+
+.close {
+
+	display: inline;
+	margin-left: 5px;
+
+}
+
+.footer_li {
+
+	list-style: none;
+	display: inline-block;
+	margin: 0px 25px;
+
+}
+
+.superior {
+	width: 100%; 
+	position: fixed;
+}
+
+.principal {background-color: #00578e; 
+	height: 75px; 
+	margin: 0px auto; 
+	width: 1200px;
+}
+
+.logo {
+	margin: 5px 0 0 30px; 
+	float: left;
+}
+
+.menu {
+	display: inline-block; 
+	float: right; 
+	margin: 28px 0 0 0;
+}
+
+.central {
+	background-color: #376390; 
+	background: url("images/mosaico.jpg") no-repeat scroll center center transparent; 
+	color: #FFF; 
+	font-family: 'Source Sans Pro', sans-serif; 
+	height: 500px; 
+	margin: 0px auto; 
+	padding: 125px 0 0 0;
+	text-align: center;
+}
+
+.medio {
+	display: inline-block;
+	height: 100%; 
+	width: 1200px; 
+	margin: 10px auto 20px; 
+}
+
+.info{
+	background-color: #EBEBEB;
+	float: left;
+	width: 35%;
+	padding: 40px;
+}
+
+.info_hist{
+	background-color: #EBEBEB;
+	padding: 40px;
+	float: right;
+	height: 225px;
+	width: 50%;
+}
+
+.timeline{
+	background-color: #EBEBEB;
+	padding: 40px;
+	margin: 20px 0 0 0;
+	float: right;
+	width: 93.3%;
+}
+
+.icon {
+	font-family: 'IcoMoon-Free';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.user:before {
+	content: "\e9f9";
+	font-size: 25px;
+}
+
+.office:before {
+	content: "\e903";
+	font-size: 50px;
+}
+
+.historia:before {
+	content: "\e9cc";
+	font-size: 50px;
+}
+
+.historia:before {
+	content: "\e9cc";
+	font-size: 50px;
+}
+
+.time:before {
+	content: "\e94d";
+	font-size: 70px;
+}
+
+#listado {
+	list-style-type: none; 
+	margin: 0;
+}
+
+#listado_timeline{
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	text-align: left;
+}
+
+#listado li {
+	float: left; 
+	font-size: 16px; 
+	font-weight: bold;   
+	transition: color 0.2s ease 0s;
+}
+
+#listado li a{
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+	padding: 30px 30px 21px; 
+}
+
+#listado li a:hover {
+	color: #02BBF1;
+}

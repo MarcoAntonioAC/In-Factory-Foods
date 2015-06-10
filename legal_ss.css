@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a{
+	color: #FFF;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	margin: 0;
+	text-align: center;
+}
+
+h1{
+	color: #FFF;
+	background-color: #00578E;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 50px; 
+	margin: 0 auto 10px;
+	padding: 50px 0;
+	width: 1200px;
+}
+
+.blank{
+	margin: 0 auto;
+	height: 95px;
+	width: 1200px; 
+}
+
+.close {
+
+	display: inline;
+	margin-left: 5px;
+
+}
+
+.superior {
+	width: 100%; 
+	position: fixed;
+}
+
+.principal {background-color: #00578e; 
+	height: 75px; 
+	margin: 0px auto; 
+	width: 1200px;
+}
+
+.logo {
+	margin: 0 0 0 30px; 
+	height: 75px; width: 75px; 
+	float: left;
+}
+
+.menu {
+	display: inline-block; 
+	float: right; 
+	margin: 28px 0 0 0;
+}
+
+.aviso {
+	background-color: #EBEBEB;
+	width: 1160px; 
+	margin: 20px auto;
+	padding: 20px;
+	text-align: left;
+}
+
+.icon {
+	font-family: 'IcoMoon-Free';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#listado {
+	list-style-type: none; 
+	margin: 0;
+}
+
+#listado li {
+	float: left; 
+	font-size: 16px; 
+	font-weight: bold;   
+	transition: color 0.2s ease 0s;
+}
+#listado li a {
+	font-size: 17px;
+	text-decoration: none;
+	padding: 30px 30px 21px; 
+}
+
+#listado li a:hover {
+	color: #02BBF1;
+}
+
+#logo_kft {
+	height: 115px;
+}

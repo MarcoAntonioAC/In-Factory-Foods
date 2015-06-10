@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Soporte</title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/iniciador-soporte.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="soporte_ss.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+	<div class="superior">
+		<div class="principal">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" id="logo_kft"></a>
+			</div>
+			<div class="redes"></div>
+			<div class="menu">
+				<ul id="listado">
+					<li><a href="index.html#empresa">EMPRESA</a></li>
+					<li><a href="soporte.html">AYUDA</a></li>
+					<li><a href="login.php"><div class="close">ENTRAR AL SISTEMA</div></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="central">
+	<div class="blank"></div>
+	<h1>Ayuda</h1>
+	<div class="aviso">
+
+		<div class="tema">
+		<h2>1. No logro acceder con mi usuario y contraseña.</h2>
+		<p>Verifique que sus datos sean correctos y que ningun complemento o cookie este inteferiendo con su acceso, en caso de persisitir reportelo al area de soporte, para recibir una respeusta es importante que nos indique su Nombre de Usuario que se le asigno para este sistema y su ID de empleado propiedad de Kraft.</p>
+		</div>
+		<div class="tema">
+		<h2>2. Soy administrador y no tengo acceso al area de altas y bajas.</h2>
+		<p>Verifique que sus datos sean correctos y que ningun complemento o cookie este inteferiendo con su acceso, en caso de persisitir reportelo al area de soporte, para recibir una respeusta es importante que nos indique su Nombre de Usuario que se le asigno para este sistema y su ID de empleado propiedad de Kraft.</p>
+		</div>
+		<div class="tema">
+		<h2>3. Al acceder aparece el codigo de error No. 00001</h2>
+		<p>Verifique que sus datos sean correctos y que ningun complemento o cookie este inteferiendo con su acceso, en caso de persisitir reportelo al area de soporte, para recibir una respeusta es importante que nos indique su Nombre de Usuario que se le asigno para este sistema y su ID de empleado propiedad de Kraft.</p>
+		</div>
+
+	</div>
+	<h1 id="soporte">Soporte</h1>
+	<div class="aviso">
+
+		<h2>El area de soporte esta a tu disposición para recibir los reportes acerca de errores en el sistema (bugs) o problemas con tu cuenta.</h2>
+		<form id="formSoporte" class="form" method="post">
+			<p>Nombre:</p>
+			<input id="nomb" class="textbox" type="text" placeholder="Nombre completo" name="nombre">
+			<p>ID Empleado:</p>
+			<input id="user" class="textbox" type="text" placeholder="ID de empleado" name="empleado">
+			<p>Correo:</p>
+			<input id="correo" class="textbox" type="text" placeholder="Correo electronico" name="correo" value="empleado@correo.com">
+			<p>Fecha:</p>
+			<p id="fecha"></p>
+			<script>
+				var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+				var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+				var f = new Date();
+				document.getElementById("fecha").innerHTML = (diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+			</script>
+			<p>Clase de Reporte:</p>
+			<select class="textbox" id="clase">
+  				<option>Errores</option>
+  				<option>Mi Cuenta</option>
+  				<option>Privacidad ARCO</option>
+			</select>
+			<p>Descripción:</p>
+			<textarea id="desc" class="textarea" type="text" placeholder="Reporte detallado de lo sucedido" name="descripción"></textarea>
+			<br>
+			<p><button type="button" id="submitEnviar">Enviar</button></p>
+			<div id="avisoPriv"><a href="legal.html">Aviso de Privacidad</a></div>
+		</form>
+
+	</div>
+	</div>
+
+</body>
+
+</html>

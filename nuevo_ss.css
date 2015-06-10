@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	color: #FFF;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 17px;
+	text-align: center;
+	background-color: #ADADAD;
+}
+
+h1 {
+	color: #FFF;
+	background-color: #00578E;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 50px; 
+	margin: 10px auto;
+	padding: 10px 0;
+	width: 500px;
+}
+
+p {
+	font-weight: bold;
+}
+
+.form {
+	background-color: #00578E;
+	color: #FFF;
+	width: 500px; 
+	margin: auto;
+	padding: 0 0 25px 0;
+}
+
+.textbox {
+	width: 250px;
+	height: 30px;
+}
+
+.textbox2 {
+	text-align: center;
+	width: 150px;
+	height: 30px;
+}
+
+#submitEnviar {
+	color: #FFF;
+	background-color: dodgerblue;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 25px;
+}

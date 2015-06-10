@@ -1,0 +1,10 @@
+# robotstxt.org/
+
+User-agent: *
+
+Disallow: /images/
+Disallow: /js/
+Disallow: /php/
+
+Sitemap: http://factoryfood.info/sitemap.xml
+
